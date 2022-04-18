@@ -15,7 +15,7 @@ const Header = () => {
       collapseOnSelect
       expand="lg"
       sticky="top"
-      className="bg-info"
+      className="bg-dark"
       variant="dark"
     >
       <Container>

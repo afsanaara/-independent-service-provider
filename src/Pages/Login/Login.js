@@ -55,7 +55,7 @@ const Login = () => {
   }
     return (
       <div className="container w-50 mx-auto mt-5">
-        <h1 className="text-info text-center">Login</h1>
+        <h1 className="text-dark text-center">Login</h1>
       <Form onSubmit={handleLogin}>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
@@ -66,14 +66,14 @@ const Login = () => {
     <Form.Label>Password</Form.Label>
     <Form.Control ref={passwordRef} type="password" placeholder="Password" />
   </Form.Group>
-  <Button variant="primary" type="submit">
+  <Button variant="dark" type="submit">
     Login
           </Button>
           <div className="text-danger">
                {showError}
           </div>
          
-          <p onClick={handleRegistration} className="text-center">New to Go Travel? <button className="text-info btn btn-link text-decoration-none">Create a new account</button> </p>
+          <p onClick={handleRegistration} className="text-center">New to Ara Planner? <button className="text-info btn btn-link text-decoration-none">Create a new account</button> </p>
           <p onClick={handleRestPassword} className="text-center"><button className="text-info btn btn-link text-decoration-none">Reset Password</button> </p>
         </Form>
         <SocialLogin></SocialLogin>
