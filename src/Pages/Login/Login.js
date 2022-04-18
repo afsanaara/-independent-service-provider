@@ -22,7 +22,9 @@ const Login = () => {
   const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
   let showError;
   if (error) {
-    showError = error?.message;
+    showError = <div>
+    <p className="text-danger">{error?.message}</p>
+</div>
   }
   let from = location.state?.from?.pathname || "/";
   const handleRegistration = () => {

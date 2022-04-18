@@ -8,6 +8,7 @@ import Blogs from "./Pages/Blogs/Blogs";
 import Register from "./Pages/Register/Register";
 import RequireAuth from "./Pages/RequireAuth/RequireAuth";
 import CheckOut from "./Pages/CheckOut/CheckOut";
+import NotFound from './Pages/Shared/NotFound/NotFound';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Login from "./Pages/Login/Login";
 
