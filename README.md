@@ -1,6 +1,6 @@
 # Project name : Ara Planner
 
-# Live site :
+# Live site : https://ara-planner.web.app/
 
 # About Project
 
