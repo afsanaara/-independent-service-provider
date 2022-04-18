@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name": "Corporate Event",
+        "price": "$2750",
+        "description": "Bustling and energetic, Osaka is a thriving metropolis with a distinct commercial culture and with a regional identity that sets it apart from elsewhere in Japan.",
+        "img": "http://demo.ovathemes.com/eventme/wp-content/uploads/2014/08/post3-big.jpg"
+
+    },
+    {
+        "id":2,
+        "name": "Wedding",
+        "price": "$5520",
+        "description": "Paris rarely disappoints. Home to beautiful architecture, arresting art and the world’s finest restaurants, only the hard–hearted will leave the City of Light without falling in love.",
+        "img": "http://demo1.wpopal.com/grenda/wp-content/uploads/2018/03/gallery10.jpg"
+
+    },
+    {
+        "id":3,
+        "name": "Party",
+        "price": "$6560",
+        "description": "Sandwiched between the Red Sea and the mighty Negev desert, Eilat is a water sport and desert adventure paradise.",
+        "img": "http://demo1.wpopal.com/grenda/wp-content/uploads/2018/03/service_02-Copy-620x300.jpg"
+
+    }
+]
